@@ -1,0 +1,297 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  .frame-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-mediumturquoise-100);
+    width: 1500px;
+    height: 148px;
+  }
+  .frame-inner,
+  .frame-item {
+    position: absolute;
+    top: 172px;
+    height: 659px;
+  }
+  .frame-item {
+    left: 10px;
+    background-color: var(--color-mediumturquoise-200);
+    width: 990px;
+  }
+  .frame-inner {
+    left: 1000px;
+    background-color: var(--color-mediumturquoise-300);
+    width: 460px;
+  }
+  .dg-classroom {
+    margin: 0;
+    position: absolute;
+    top: 47px;
+    left: 154px;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .group-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-sm);
+    background-color: var(--color-teal);
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.26);
+    width: 248px;
+    height: 263px;
+  }
+  .student {
+    position: absolute;
+    top: 182.42px;
+    left: 45px;
+    font-size: var(--font-size-lg);
+    display: inline-block;
+    font-family: var(--font-inter);
+    color: var(--color-black);
+    text-align: left;
+    width: 157px;
+    height: 42.51px;
+  }
+  .group-container,
+  .group-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 248px;
+    height: 263px;
+  }
+  .group-item {
+    background-color: var(--color-white);
+    width: 176px;
+    height: 145.23px;
+  }
+  .image-1-icon {
+    position: absolute;
+    top: 0;
+    left: 14px;
+    width: 147px;
+    height: 155px;
+    object-fit: cover;
+  }
+  .rectangle-group {
+    position: absolute;
+    top: 27px;
+    left: 36px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.57);
+    width: 176px;
+    height: 155px;
+  }
+  .group-inner,
+  .group-parent {
+    position: absolute;
+    width: 248px;
+    height: 263px;
+  }
+  .group-parent {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    top: 509px;
+    left: 1080px;
+  }
+  .group-inner {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-sm);
+    background-color: var(--color-darkcyan-100);
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.26);
+  }
+  .teacher {
+    position: absolute;
+    top: 182px;
+    left: 45px;
+    font-size: var(--font-size-lg);
+    display: inline-block;
+    font-family: var(--font-inter);
+    color: var(--color-black);
+    text-align: left;
+    width: 187px;
+    height: 43px;
+  }
+  .rectangle-frame {
+    position: absolute;
+    top: 27px;
+    left: 36px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.57);
+    width: 176px;
+    height: 145.23px;
+  }
+  .group-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 197px;
+    left: 1087px;
+    width: 248px;
+    height: 263px;
+  }
+  .frame-child1 {
+    position: absolute;
+    top: 148px;
+    left: 0;
+    background-color: var(--color-darkcyan-200);
+    width: 1500px;
+    height: 19px;
+  }
+  .blank-line,
+  .welcome-to-mdg-classroom {
+    display: block;
+  }
+  .blank-line {
+    font-size: var(--font-size-lg);
+  }
+  .get-everything-at-one-place {
+    display: block;
+    font-size: var(--font-size-base);
+  }
+  .welcome-to-mdg-container {
+    margin: 0;
+    position: absolute;
+    top: 234px;
+    left: 38px;
+    font-weight: 700;
+    color: var(--color-darkslategray-200);
+    white-space: pre-wrap;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: var(--font-size-xl);
+  }
+  .group-child1 {
+    border-radius: var(--br-md);
+    background-color: var(--color-darkcyan-200);
+    top: 0;
+    left: 0;
+    width: 89px;
+    height: 96px;
+  }
+  .group-child1,
+  .m {
+    position: absolute;
+  }
+  .rectangle-wrapper1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 89px;
+    height: 96px;
+  }
+  .m {
+    top: 17px;
+    left: 24px;
+    display: inline-block;
+    width: 41.67px;
+    height: 62.64px;
+  }
+  .group-parent1 {
+    top: 28px;
+    left: 65px;
+  }
+  .group-child2,
+  .group-parent1,
+  .group-parent2 {
+    position: absolute;
+    width: 89px;
+    height: 96px;
+  }
+  .group-child2 {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-md);
+    background-color: var(--color-white);
+  }
+  .group-parent2 {
+    top: 28px;
+    left: 65px;
+    color: var(--color-darkslategray-100);
+  }
+  .rectangle-parent {
+    position: relative;
+    width: 100%;
+    height: 840px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-2xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  
+  .login-box {
+    width: 350px;
+    height: 500px;
+    background: #1c8b84;
+    color: #fff;
+    top: 60%;
+    left: 84%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 70px 30px;
+  }
+  
+  
+  h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .login-box input[type="text"], .login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+  }
+  
+  .login-box a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: darkgrey;
+    display: block;
+    margin-top: 15px;
+  }
+  
+  .login-box a:hover {
+    color: #39dc79;
+  }
+  label{
+    font-size: 29px;
+  }
+  /* h3{
+      font-size: 20px;
+      padding-top: 14px;
+  } */
+  

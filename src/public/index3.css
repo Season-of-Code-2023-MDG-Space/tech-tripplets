@@ -1,0 +1,428 @@
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  body {
+    margin: 0;
+    line-height: normal;
+  }
+  .frame-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-darkcyan-100);
+    width: 1550px;
+    height: 183px;
+  }
+  .frame-item {
+    top: 273px;
+    left: 16px;
+    border-radius: var(--br-md);
+    background-color: rgba(255, 255, 255, 0.79);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.72);
+    border: 1px solid var(--color-darkcyan-200);
+    width: 457px;
+    height: 553px;
+  }
+  .frame-item,
+  .group-child,
+  .group-item {
+    position: absolute;
+    box-sizing: border-box;
+  }
+  .group-child {
+    top: 0;
+    left: 0.01px;
+    background-color: var(--color-azure-100);
+    border: 1px solid var(--color-darkcyan-100);
+    width: 457px;
+    height: 48.45px;
+  }
+  .group-item {
+    top: 49.5px;
+    left: -1px;
+    border-top: 2px solid var(--color-darkcyan-100);
+    width: 459px;
+    height: 2px;
+  }
+  .rectangle-group {
+    position: absolute;
+    top: 711px;
+    left: 16px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 457.01px;
+    height: 50.5px;
+  }
+  .image-2,
+  .image-3,
+  .image-4 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .image-2 {
+    top: 719px;
+    left: 422.02px;
+    width: 31px;
+    height: 26.71px;
+    transform: rotate(0.04deg);
+    transform-origin: 0 0;
+    background-image: url(./public/image2@3x.png);
+  }
+  .group-button:hover,
+  .group-container:hover,
+  .image-2:hover,
+  .image-3:hover,
+  .image-4:hover,
+  .rectangle-container:hover {
+    animation: 1s ease 0s 1 normal none fade-in;
+    opacity: 1;
+  }
+  .image-3,
+  .image-4 {
+    top: 720px;
+    left: 374px;
+    width: 30px;
+    height: 30px;
+    background-image: url(./public/image3@3x.png);
+  }
+  .image-4 {
+    left: 318px;
+    width: 37.89px;
+    background-image: url(./public/image4@3x.png);
+  }
+  .min-201 {
+    margin: 0;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-size: -webkit-xxx-large;
+    font-weight: 700;
+    font-family: inherit; 
+    
+  }
+  .frame-inner,
+  .rectangle-div {
+    position: absolute;
+    border: 1px solid var(--color-darkcyan-200);
+    box-sizing: border-box;
+  }
+  .frame-inner {
+    top: 183px;
+    left: 0;
+    background-color: #e0f2f1;
+    width: 1550px;
+    height: 69px;
+  }
+  .rectangle-div {
+    top: 273px;
+    left: 491px;
+    border-radius: var(--br-md);
+    background-color: var(--color-azure-100);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.83);
+    width: 1000px;
+    height: 553px;
+  }
+  .group-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 40px;
+    background-color: var(--color-darkcyan-200);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.59);
+    width: 200px;
+    height: 43px;
+  }
+  .attendance {
+    position: absolute;
+    top: 4px;
+    left: 35px;
+    font-size: var(--font-size-base);
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+  }
+  /* .rectangle-container {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 195px;
+    left: 1300px;
+    width: 200px;
+    height: 43px;
+  } */
+  /* Dropdown Button */
+.dropbtn {
+  background-color: #5ac4ae;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+    border: 0px;
+    padding: 0px;
+    background-color: transparent;
+    position: absolute;
+    top: 190px;
+    left: 1350px;
+    width: 20px;
+    height: 10px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 16px;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8841;}
+  .group-child1,
+  .rectangle-wrapper {
+    position: absolute;
+    width: 980px;
+    height: 59px;
+  }
+  .group-child1 {
+    top: 0;
+    left: 0;
+    background-color: #56d5cd;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .rectangle-wrapper {
+    top: 304px;
+    left: 502px;
+  }
+  .study-material {
+    margin: 0;
+    position: absolute;
+    top: 312px;
+    left: 513px;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: inherit;
+    color: #031716;
+    text-align: center;
+  }
+  .frame-child1 {
+    position: absolute;
+    top: 385px;
+    left: 502px;
+    background-color: #fffcfc;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.73);
+    width: 980px;
+    height: 377px;
+  }
+  .group-child2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-darkcyan-200);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 178px;
+    height: 37px;
+  }
+  .image-5-icon {
+    position: absolute;
+    top: 4px;
+    left: 129px;
+    width: 37.89px;
+    height: 30px;
+    object-fit: cover;
+  }
+  .upload {
+    position: absolute;
+    top: 7px;
+    left: 21px;
+    font-size: var(--font-size-base);
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .group-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 770px;
+    left: 1275px;
+    width: 178px;
+    height: 37px;
+  }
+  .group-child3 {
+    border-radius: 25px;
+    background-color: var(--color-white);
+  }
+  .group-child3,
+  .m,
+  .rectangle-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 89px;
+    height: 96px;
+  }
+  .m {
+    top: 17px;
+    left: 24px;
+    display: inline-block;
+    width: 41.67px;
+    height: 62.64px;
+  }
+  .group-parent {
+    position: absolute;
+    top: 53px;
+    left: 1400px;
+    width: 89px;
+    height: 96px;
+    font-size: 64px;
+    color: #135f5a;
+  }
+  .group-child4,
+  .group-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 22.42px;
+    height: 29.69px;
+  }
+  .group-child4 {
+    top: 12px;
+    left: 16px;
+    border-radius: 30px;
+    background-color: var(--color-white);
+    width: 41px;
+    height: 6px;
+  }
+  .group-container {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 18px;
+    left: 26px;
+    width: 57px;
+    height: 29.69px;
+  }
+  .rectangle-parent {
+    position: relative;
+    background-color: #e7f2f1;
+    width: 100%;
+    height: 840px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #000;
+    font-family: var(--font-inter);
+  }
+  body{
+    height: 510px;
+    width: auto;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(18, 225, 153));
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.container{
+    max-width: 453px;
+    border: 2px solid black;
+    border-radius: 13px;
+    /* margin: auto; */
+    height: 56vh;
+    padding: 2px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+
+.message{
+    background-color: rgb(211, 204, 204);
+    width: 41%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.left{
+    float: left;
+    clear:both;
+}
+
+.right{
+    float: right;
+    clear:both;
+}
+
+#send-container{
+    display:block;
+    /* margin: auto;
+    text-align: center; */
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#messageInp{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 22px;
+}
+
+.btn{
+    margin: 0 5px;
+    width: 9%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+  
