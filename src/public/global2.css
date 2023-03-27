@@ -1,0 +1,29 @@
+:root {
+    /* fonts */
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-xs: 20px;
+    --font-size-sm: 30px;
+    --font-size-base: 35px;
+    --font-size-lg: 40px;
+    --font-size-xl: 64px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-darkslategray-100: #135f5a;
+    --color-darkcyan-100: #3c9b95;
+    --color-darkcyan-200: #1c8b84;
+    --color-mediumturquoise-100: #56d5cd;
+    --color-azure-100: #eef9f8;
+    --color-azure-200: #e0f2f1;
+    --color-black: #000;
+  
+    /* border radiuses */
+    --br-xs: 10px;
+    --br-sm: 20px;
+    --br-md: 25px;
+    --br-lg: 30px;
+    --br-xl: 40px;
+  }
+ 

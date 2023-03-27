@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global3.css" />
+    <link rel="stylesheet" href="./index3.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+    />
+
+ <input type="hidden" id="my-variable" value="<%= chatnamet %>">
+
+    <script defer src="http://localhost:5000/socket.io/socket.io.js"></script>
+    <script defer src="./client.js"></script>
+  
+  </head>
+  <body>
+    <div class="rectangle-parent">
+      <div class="frame-child"></div>
+      <div class="frame-item">
+        <nav>
+          <!-- <img class="logo" src="chat.png" alt=""> -->
+      </nav>
+      <div class="container"></div> 
+      <div class="send">
+          <form action="#" id="send-container">
+              <input type="text" name="messageInp" id="messageInp">
+              <button class="btn" type="submit">Send</button>
+          </form>
+      </div>
+
+      </div>
+      <!-- <div class="rectangle-group">
+        <div class="group-child"></div>
+        <div class="group-item"></div> -->
+      </div>
+      <button class="image-2"></button><button class="image-3"></button
+      ><button class="image-4"></button>
+      <h1 class="min-201">MIN 201</h1>
+      <div class="frame-inner"></div>
+      <div class="rectangle-div"></div>
+      <!-- <button class="rectangle-container">
+        <div class="group-inner"></div>
+        <b class="attendance">Attendance</b>
+      </button> -->
+      <div class="dropdown">
+        <button class="dropbtn">Attendance</button>
+        <div class="dropdown-content">
+          <a href="/qrcode">generate QR</a>
+          <a href="/tviewAttendance">View Attendance</a>
+      </div>
+      </div>
+      <div class="rectangle-wrapper"><div class="group-child1"></div></div>
+      <h2 class="study-material">Study material</h2>
+      <div class="frame-child1">
+
+        <iframe src="https://drive.google.com/embeddedfolderview?id=1Y7Mup0yPpGvTXNOPjVIFhMVg8v6lX7P4" style="width:100%; height:600px; border:0;"></iframe>
+
+
+      </div>
+      <a href="https://drive.google.com/drive/u/0/folders/1Y7Mup0yPpGvTXNOPjVIFhMVg8v6lX7P4">
+      <button class="group-button">
+        <div class="group-child2"></div>
+        <img class="image-5-icon" alt="" src="public/image4@3x.png" /><b
+          class="upload"
+          >upload</b
+        >
+      </button>
+      </a>
+      <div class="group-parent">
+        <div class="rectangle-frame"><div class="group-child3"></div></div>
+        <b class="m">M</b>
+      </div>
+      <button class="group-container">
+        <img class="group-icon" alt="" src="public/group-18.svg" />
+        <div class="group-child4"></div>
+      </button>
+    </div>
+
+   
+
+  </body>
+</html>
